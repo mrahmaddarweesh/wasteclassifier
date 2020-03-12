@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/drive/folders/1m4UleVpWg8ePn3cwM67hktixJp0j2waP?fbclid=IwAR3bJJM2XIz8mO2LPEToesw4XSk_XyPnrf9d1lycSvigV_Kx6P5IAwcYj1Y'
+export_file_url = 'https://drive.google.com/drive/folders/1m4UleVpWg8ePn3cwM67hktixJp0j2waP'
 export_file_name = 'model97.pth'
 
 classes = ['glass', 'paper', 'plastic']
